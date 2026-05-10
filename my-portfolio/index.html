@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+<div id="sidebar" class="sidebar">
+  <a href="#">Home</a>
+  <a href="#about">About</a>
+  <a href="#works">Works</a>
+</div>
+
+<div class="container">
+
+  <!-- プロフィール -->
+  <div id="about" class="profile">
+    <div class="icon"></div>
+    <h1>Yoshiyasu</h1>
+    <p>
+      未経験からフロントエンジニアを目指しています。<br>
+      作品は随時更新予定
+    </p>
+  </div>
+
+  <!-- Works -->
+  <h2 id="works" class="section-title">Works</h2>
+
+  <div class="works">
+
+    <a href="work1.html" class="card">
+      <div class="thumb"></div>
+      <h3>初めてのWebサイト</h3>
+      <p>HTML / CSS / JavaScript</p>
+      <p class="learn">学んだこと：クリック処理</p>
+    </a>
+
+    <div class="card">
+      <div class="thumb"></div>
+      <h3>これから追加予定</h3>
+      <p>作品を増やしていきます</p>
+    </div>
+
+    <div class="card">
+      <div class="thumb"></div>
+      <h3>これから追加予定</h3>
+      <p>成長記録として残していきます</p>
+    </div>
+
+  </div>
+
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
